@@ -7,21 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32334AD821058B4A00BE486D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32334AD721058B4A00BE486D /* ViewController.swift */; };
 		3278F3952105795300E34398 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278F3942105795300E34398 /* AppDelegate.swift */; };
-		3278F3972105795300E34398 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278F3962105795300E34398 /* ViewController.swift */; };
 		3278F39A2105795300E34398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3278F3982105795300E34398 /* Main.storyboard */; };
 		3278F39C2105795700E34398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3278F39B2105795700E34398 /* Assets.xcassets */; };
 		3278F39F2105795700E34398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3278F39D2105795700E34398 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32334AD721058B4A00BE486D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../demo3/demo3/ViewController.swift; sourceTree = "<group>"; };
 		3278F3912105795300E34398 /* groot speaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "groot speaker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3278F3942105795300E34398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3278F3962105795300E34398 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3278F3992105795300E34398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3278F39B2105795700E34398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3278F39B2105795700E34398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Users/jackhuang/Desktop/groot speaker/groot speaker/Assets.xcassets"; sourceTree = "<absolute>"; };
 		3278F39E2105795700E34398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3278F3A02105795700E34398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3278F3A82105888B00E34398 /* iamgroot.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = iamgroot.m4a; path = "/Users/jackhuang/Desktop/groot speaker/../iamgroot.m4a"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +39,7 @@
 		3278F3882105795300E34398 = {
 			isa = PBXGroup;
 			children = (
+				3278F3A82105888B00E34398 /* iamgroot.m4a */,
 				3278F3932105795300E34398 /* groot speaker */,
 				3278F3922105795300E34398 /* Products */,
 			);
@@ -55,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				3278F3942105795300E34398 /* AppDelegate.swift */,
-				3278F3962105795300E34398 /* ViewController.swift */,
+				32334AD721058B4A00BE486D /* ViewController.swift */,
 				3278F3982105795300E34398 /* Main.storyboard */,
 				3278F39B2105795700E34398 /* Assets.xcassets */,
 				3278F39D2105795700E34398 /* LaunchScreen.storyboard */,
@@ -135,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3278F3972105795300E34398 /* ViewController.swift in Sources */,
+				32334AD821058B4A00BE486D /* ViewController.swift in Sources */,
 				3278F3952105795300E34398 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
