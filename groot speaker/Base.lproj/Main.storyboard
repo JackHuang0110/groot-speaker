@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14278.2"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -33,6 +34,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Siri"/>
                                 <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ty6-Yh-RtS"/>
                                     <action selector="speak:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Haj-xy-hIJ"/>
                                 </connections>
                             </button>
@@ -88,10 +90,11 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="saF-fY-VCL" userLabel="go">
-                                <rect key="frame" x="62" y="303" width="30" height="30"/>
+                                <rect key="frame" x="62" y="304" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="GO"/>
                                 <connections>
+                                    <action selector="buttonPressed1:" destination="Ivd-gF-4df" eventType="touchUpInside" id="o9K-GQ-CAZ"/>
                                     <action selector="playSound:" destination="Ivd-gF-4df" eventType="touchUpInside" id="ge4-xQ-PsV"/>
                                 </connections>
                             </button>

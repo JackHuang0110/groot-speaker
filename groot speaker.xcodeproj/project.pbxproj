@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32334AD821058B4A00BE486D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32334AD721058B4A00BE486D /* ViewController.swift */; };
 		3278F3952105795300E34398 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278F3942105795300E34398 /* AppDelegate.swift */; };
 		3278F39A2105795300E34398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3278F3982105795300E34398 /* Main.storyboard */; };
 		3278F39C2105795700E34398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3278F39B2105795700E34398 /* Assets.xcassets */; };
 		3278F39F2105795700E34398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3278F39D2105795700E34398 /* LaunchScreen.storyboard */; };
+		32E3D2C62105ADE80009E0F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E3D2C52105ADE80009E0F3 /* ViewController.swift */; };
 		32E529752105994A002B6EC3 /* iamgroot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32E529742105994A002B6EC3 /* iamgroot.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		32334AD721058B4A00BE486D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../demo3/demo3/ViewController.swift; sourceTree = "<group>"; };
 		3278F3912105795300E34398 /* groot speaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "groot speaker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3278F3942105795300E34398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3278F3992105795300E34398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3278F39B2105795700E34398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Users/jackhuang/Desktop/groot speaker/groot speaker/Assets.xcassets"; sourceTree = "<absolute>"; };
 		3278F39E2105795700E34398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3278F3A02105795700E34398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32E3D2C52105ADE80009E0F3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		32E529742105994A002B6EC3 /* iamgroot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = iamgroot.mp3; path = ../../iamgroot.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +58,7 @@
 			children = (
 				32E529742105994A002B6EC3 /* iamgroot.mp3 */,
 				3278F3942105795300E34398 /* AppDelegate.swift */,
-				32334AD721058B4A00BE486D /* ViewController.swift */,
+				32E3D2C52105ADE80009E0F3 /* ViewController.swift */,
 				3278F3982105795300E34398 /* Main.storyboard */,
 				3278F39B2105795700E34398 /* Assets.xcassets */,
 				3278F39D2105795700E34398 /* LaunchScreen.storyboard */,
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32334AD821058B4A00BE486D /* ViewController.swift in Sources */,
+				32E3D2C62105ADE80009E0F3 /* ViewController.swift in Sources */,
 				3278F3952105795300E34398 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
